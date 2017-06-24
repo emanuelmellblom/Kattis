@@ -11,7 +11,6 @@ int main(){
 
 	for(int i = 0; i < 6; i++){
 		cin >> pices[i];
-		//cout << pices[i] << endl;
 	}
 	
 	for (int i = 0; i < 6; ++i){
@@ -30,17 +29,3 @@ int main(){
 	}
 	cout << endl;	
 }
-
-//pices[i] > original ? 
-
-
-
-//output[i] = (pices[i]-original[i]);
-		// if(pices[i] > original[i]){
-		// 	int diff = original[i] - pices[i];
-		// 	output[i] += pices[i]-diff;
-		// 	cout << i << endl;
-		// }else if(pices[i] == original[i]){
-		// 	output[i] = original[i]- pices[i];
-		// }
-		// cout << output[i] << endl;
